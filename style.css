@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    display:flex;
+    height:100vh;
+    width: 100vw;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(90deg, rgba(226,137,221,0.7974137931034483) 13%, rgba(0,212,255,0.8081896551724138) 53%);
+    background-image: url('/EmailHunter/Assets/Background/BackgroundFitness.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color:#fff;
+}
+
+main{
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin: auto;
+}
+
+main section{
+    border: 12px groove;
+    border-radius: 20px;
+    border-right-color: #ffc8dd;
+    border-top-color:#ffc8dd;
+    border-left-color:#00b4d8;
+    border-bottom-color:#00b4d8;
+
+    padding: 15px;
+    max-width: 450px;
+    height: 600px;
+
+    background: linear-gradient(48deg, rgba(0,212,255,0.42025862068965514) 54%, rgba(226,137,221,0.625) 90%);
+    -webkit-box-shadow: 20px 27px 15px -12px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 20px 27px 15px -12px rgba(0, 0, 0, 0.39);
+    box-shadow: 20px 27px 15px -12px rgba(0, 0, 0, 0.39);
+}
+
+section {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 5px #000;
+    word-spacing: 4px;
+}
+
+section h1{
+    font-weight: 700;
+    font-size: 2.7rem;
+    text-shadow: 3px 2px 4px #000000;
+    margin-top: 15px;
+}
+
+section .subtitle{
+    margin: 65px 0;
+    text-align: end;
+}
+
+section .desc{
+    margin-bottom: 45px;
+}
+
+
+/* form label{
+    display: flex;
+    width: 100%;
+} */
+
+form label input,
+form input[type='button']{
+    padding: 8px 14px;
+    box-shadow: 1px 1px 3px #000;
+    border-radius: 8px;
+    opacity: .8;    
+    border: 1px solid #ccc;
+}
+
+form label input{
+    outline: none;
+    border-radius:8px;
+    padding:8px 12px;
+    width:100%;
+    max-width: 300px;
+    font-size: 1rem;
+    transition:  ease 400ms;
+    transition-property: opacity transform;
+    margin-right:12px
+}
+
+form label input:focus{
+    opacity:1;
+    transform: scale(1.04)
+}
+
+form input[type='button']{
+    font-weight: 700;
+    color:#555;
+    background-color:#94e7fc;
+    transition: transform ease 200ms;
+}
+form input[type='button']:hover{
+    cursor:pointer;
+    transform: scale(1.08)
+}

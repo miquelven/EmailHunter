@@ -1,5 +1,10 @@
-Página de Captura de E-mail.
+# Página de Captura de E-mail.
 
-Ideias:
+## Tecnologias Utilizadas:
 
-    - newsLetter fitness.
+- HTML
+- CSS
+
+### Descrição do projeto:
+
+Projeto realizado com HTML e CSS, com o foco no layout, tambem um pouco na estrutura HTML.
